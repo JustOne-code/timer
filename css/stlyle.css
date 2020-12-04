@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.none {
+  display: none;
+}
+img {
+  width: 100%;
+}
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Шапка */
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header li {
+  display: block;
+  padding: 0 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+header li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+header ul:hover li a {
+  filter: blur(5px);
+}
+
+header ul li a:hover {
+  color: #ede739;
+  filter: blur(0px);
+}
+
+h1 {
+  margin: 0;
+
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 130%;
+  /* identical to box height, or 73px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.head {
+  margin: 0;
+  /* background-image: url(../image/fon1.jpg) ; */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-subtitle{
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.banner-tick samp {
+  font-size: 5em;
+  font-weight: 700;
+  color: #f2f543;
+}
+
+.SubTitle {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.headerArrow {
+  position: absolute;
+  bottom: 0;
+}
+
+/* portfolio */
+
+.portfolio h2 {
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+
+  text-align: center;
+  color: #000000;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.portfolio a {
+  display: block;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.portfolio a:hover {
+  color: rgba(29, 128, 153, 0.877);
+  transform: translateY(-15px);
+}
+.card {
+  color: black;
+  background-color: #fff;
+  max-width: 540px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.card h3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio {
+  margin-bottom: 85px;
+}
+/* подвал */
+
+footer {
+  background-color: #1e4776;
+  padding-top: 50px;
+  padding-bottom: 125px;
+  color: #7e9ec9;
+}
+.footer-copyright h3 {
+  margin-bottom: 15px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyright,
+.footer-icons,
+.footer-contact {
+  width: 350px;
+}
+.footer-icons p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  margin: 15px;
+
+  color: #ffffff;
+}
+.wrapper-icons {
+  display: flex;
+
+  justify-content: space-between;
+  width: 80%;
+}
+footer button {
+  background-color: #1e4776;
+  border: 3px solid white;
+  color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+footer button:hover {
+  background-color: #ffffff;
+  color: #1e4776;
+}
+
+.p {
+  font-size: 15px;
+}
+
+/* jghoygpygp */
+
+main h1 {
+  color: black;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.PROJECT {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.verstka {
+  width: 730px;
+  height: 48px;
+  padding-bottom: 15px;
+}
+
+.PROJECT a {
+  text-decoration: none;
+}
+.PROJECT button {
+  background-color: #ffffff;
+  border: 3px solid#1E4776;
+  color: #1e4776;
+  padding: 15px 20px;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: all 0.2s ease-in-out;
+}
+
+.PROJECT button:hover {
+  background-color: #1e4776;
+  color: #ffffff;
+}
+/*
+.block{
+    width: 800px;
+    height: 400px;
+    background-color: #ede739;
+}
+@media(max-width: 800px){
+    .block{
+        width: 400px;
+        background-color: darkblue;
+    }   
+}
+@media(max-width: 600px){
+    .block{
+        width: 300px;
+        background-color: red;
+    }   
+}
+*/

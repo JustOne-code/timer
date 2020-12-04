@@ -1,0 +1,50 @@
+@media(max-width: 1110px){
+    .portfolio a{
+        max-width: calc(50% - 15px);
+    }
+    .footer-wrapper{
+     flex-direction: column-reverse;
+     align-items: center;
+     text-align: center;
+    }
+    footer{
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    .portfolio{
+        margin-bottom: 20px;
+    }
+    .portfolio h2{
+        font-size: 30px;
+        line-height: 130%;
+        margin-top: 30px;
+        margin-bottom: 30px
+    
+    }
+    .wrapper-icons{
+        width: 100%;
+    }
+    .footer-copyright,.footer-icons,.footer-contact{
+        margin-bottom: 50px;
+    }
+}
+/**************************************/
+@media(max-width: 760px){
+    h1 {
+        font-size: 36px;
+    }
+    .SubTitle
+    {
+        font-size: 12px;    
+    }
+    header li{
+        font-size: 14px;   
+    }
+    .portfolio a{
+        max-width: 530px;
+    }
+    .portfolio-wrapper{
+        justify-content: center;
+    }
+    
+}
